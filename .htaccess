@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "unik"
+AuthUserFile /home/TDIW/tdiw-g4/public_html/.htpasswd
+Require valid-user
+

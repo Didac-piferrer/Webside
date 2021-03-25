@@ -1,0 +1,227 @@
+.categorias
+{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+.categorias ul li  {
+    overflow:hidden;
+    display: inline;
+    font-style:none;
+    margin: 25px;
+    text-align: center;
+    
+}
+.categorias ul li > a{
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+    padding: 20px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition:all 1000ms ease;
+    -o-transition:all 1000ms ease;
+    transition: all 1000ms ease;
+}
+.categorias ul li :hover{
+    
+    background: hotpink;
+    border-radius:50px;
+
+   
+}
+nav a/*cesta, interrogante, sesion derecha*/
+{
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+    padding: 20px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition:all 1000ms ease;
+    -o-transition:all 1000ms ease;
+    transition: all 1000ms ease;
+}
+nav a:hover
+{
+    background: hotpink;
+    border-radius:50px;
+
+}
+div#inicioSesion:hover header nav {
+    display: none;
+}
+div#inicioSesion{
+}
+
+#productoM{
+    background-color: #B9EE71;
+}
+#productoH{
+    background-color: #83C2D2;
+}
+.categorias{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-areas:
+        'header nav' 
+        'mujer hombre '
+        'fotomujer fotohombre '
+        'footer footer';
+}
+.logo{
+    text-align: center;
+}
+.logo a
+{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200px;
+    text-decoration:none;
+}
+nav{
+    text-align: center;
+}
+
+body
+{
+    background-color: aliceblue;
+}
+footer{
+    padding-top: 200px;
+}
+
+img[alt="novedadeshombre"]:hover
+{
+    background-color: hotpink;
+    align-self:center;
+    border-radius: 4px;
+    padding: 0px;
+    
+    
+    
+}
+img[alt="novedadeshombre"]
+{
+    
+    width:250px;
+    height:250px;
+}
+img[alt="novedadesmujer"]:hover
+{
+    background-color: hotpink;
+    border-radius: 4px;
+    padding: 0px;
+    align-self:center;
+    
+}
+img[alt="novedadesmujer"]
+{
+    width:250px;
+    height:250px;
+}
+img[alt="GIF"]
+{
+    width: 70px;
+}
+footer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px)
+ {
+    .categorias{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+    grid-template-areas: 
+        'mujer fotomujer'
+        'hombre fotohombre'
+        'footer footer';
+}
+     #layout
+     {
+        display: block;
+     }
+     #productoM
+     {
+         display:block;
+     }
+     #productoH
+     {
+         display:block;
+     }
+     img[alt="novedadeshombre"]
+     {
+         display:block;
+     }
+    img[alt="novedadesmujer"]
+    {
+        display:block;
+    }
+ }
+
+
+/*
+ul li.menu
+{
+    list-style-type: none;
+    font-family: courier;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    position: fixed;
+    width: 40%;
+    height:100;
+    
+   
+}
+li.contenedor-menu :hover
+{
+    background-color: #F5B7B1;
+}
+.contenedor-menu
+{
+    background-color: #E74C3C ; 
+   /* width:500;*/
+  /*  margin: 0 auto;
+    
+    overflow:hidden;
+    text-align:center;
+   
+    display: inline;
+    position:sticky;
+
+}*/
+/*
+a.contenedor-menu
+{
+    padding:0;
+    display:inline;
+    text-align:center; 
+    position:sticky;
+}*/
+/*body
+{
+    background-color: #7FFFD4;
+    text-align: left;
+    font-family:"fantasy";
+    widht: 100%;
+    margin: 0px;
+    padding:0px;
+}
+#registro
+{
+    padding-right: 100px;
+    text-align: left;
+}
+#cesta:hover
+{
+    background-color:#00008B;
+    opacity: 0.5;
+}*/

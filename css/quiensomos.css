@@ -1,0 +1,38 @@
+.logo
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:200px;
+}
+nav /*cesta, interrogante, sesion derecha*/
+{
+    text-align: right;
+}
+nav a:hover
+{
+    background-color: hotpink;
+    width:200px;
+    
+   
+   
+    
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
+p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img[alt="GIF1"]
+{
+    width: 70px;
+}
+ p footer
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
